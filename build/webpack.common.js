@@ -51,6 +51,11 @@ module.exports = {
                 include: path.resolve(__dirname, "../src")
             },
             {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/
+            },
+            {
                 test: /\.(png|svg|jpg|gif)$/,
                 use: [
                     'file-loader'
