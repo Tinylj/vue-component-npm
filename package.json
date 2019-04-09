@@ -1,16 +1,17 @@
 {
-  "name": "webpacktest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "lh-ui",
+  "description": "a friendly ui for vue",
+  "version": "0.0.6",
+  "author": "Tinylj(lujin.pt@163.com)",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/lh-ui.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^2.0.1",
     "css-loader": "^0.28.7",
