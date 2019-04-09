@@ -2,6 +2,7 @@ import './component/lh-css.css'
 import './component/test.css'//引用多个css
 import '../static/img/1.png'
 import printMe from './component/print.js';
+import Msg from './app.vue'
 
 function fn() {
     console.log("aaaa")
@@ -26,3 +27,4 @@ if(process.env.NODE_ENV != 'production') {
 }else {
     console.log("我是production模式")
 }
+export default Msg;
