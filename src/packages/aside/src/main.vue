@@ -6,7 +6,6 @@
     <slot></slot>
   </aside>
 </template>
-
 <script>
   export default {
     name: 'LhAside',
